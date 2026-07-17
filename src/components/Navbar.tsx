@@ -69,13 +69,13 @@ export default function Navbar() {
     >
       <div className="w-full max-w-[1320px] mx-auto flex items-center justify-between">
         {/* LOGO */}
-        <Link href="/" className="relative h-12 w-56 focus:outline-none block">
+        <Link href="/" className="relative h-[72px] w-[280px] focus:outline-none block">
           <Image
             src="/logo-dinero-sabio.png"
             alt="Dinero Sabio"
             fill
             className="object-contain object-left"
-            sizes="(max-width: 768px) 180px, 224px"
+            sizes="(max-width: 768px) 220px, 320px"
             priority
           />
         </Link>

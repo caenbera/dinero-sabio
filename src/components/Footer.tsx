@@ -10,13 +10,13 @@ export default function Footer() {
         
         {/* Column 1: Brand Logo & ADN */}
         <div className="flex flex-col gap-5 col-span-1 md:col-span-1.5">
-          <Link href="/" className="relative h-10 w-44 focus:outline-none block">
+          <Link href="/" className="relative h-[60px] w-[240px] focus:outline-none block">
             <Image
               src="/logo-dinero-sabio.png"
               alt="Dinero Sabio"
               fill
               className="object-contain object-left"
-              sizes="180px"
+              sizes="240px"
             />
           </Link>
           <p className="font-sans text-sm text-grey-warm/75 leading-relaxed max-w-[280px]">
