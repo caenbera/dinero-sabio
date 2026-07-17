@@ -10,19 +10,14 @@ export default function Footer() {
         
         {/* Column 1: Brand Logo & ADN */}
         <div className="flex flex-col gap-5 col-span-1 md:col-span-1.5">
-          <Link href="/" className="flex items-center gap-3 group focus:outline-none">
-            <div className="relative w-9 h-9 overflow-hidden rounded-lg border border-gold-principal/30">
-              <Image
-                src="/logo.png"
-                alt="Dinero Sabio"
-                fill
-                className="object-cover"
-                sizes="36px"
-              />
-            </div>
-            <span className="font-serif text-xl tracking-wider text-gold-light font-medium">
-              DINERO SABIO
-            </span>
+          <Link href="/" className="relative h-10 w-44 focus:outline-none block">
+            <Image
+              src="/logo-dinero-sabio.png"
+              alt="Dinero Sabio"
+              fill
+              className="object-contain object-left"
+              sizes="180px"
+            />
           </Link>
           <p className="font-sans text-sm text-grey-warm/75 leading-relaxed max-w-[280px]">
             Elegancia, patrimonio y tranquilidad. Firma privada de asesoría patrimonial y financiera de alto nivel.

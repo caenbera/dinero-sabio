@@ -69,21 +69,17 @@ export default function Navbar() {
     >
       <div className="w-full max-w-[1320px] mx-auto flex items-center justify-between">
         {/* LOGO */}
-        <Link href="/" className="flex items-center gap-3 group focus:outline-none">
-          <div className="relative w-10 h-10 overflow-hidden rounded-lg border border-gold-principal/30 group-hover:border-gold-principal transition-custom">
-            <Image
-              src="/logo.png"
-              alt="Dinero Sabio"
-              fill
-              className="object-cover"
-              sizes="40px"
-              priority
-            />
-          </div>
-          <span className="font-serif text-2xl tracking-widest text-gold-light font-medium group-hover:text-gold-principal transition-custom">
-            DINERO SABIO
-          </span>
+        <Link href="/" className="relative h-12 w-56 focus:outline-none block">
+          <Image
+            src="/logo-dinero-sabio.png"
+            alt="Dinero Sabio"
+            fill
+            className="object-contain object-left"
+            sizes="(max-width: 768px) 180px, 224px"
+            priority
+          />
         </Link>
+
 
         {/* DESKTOP MENU */}
         <nav className="hidden md:flex items-center gap-8">
