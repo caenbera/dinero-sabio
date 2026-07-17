@@ -1,0 +1,24 @@
+{
+  "name": "Dinero Sabio Asesoría Patrimonial",
+  "short_name": "Dinero Sabio",
+  "description": "Firma privada de asesoría patrimonial y financiera de alto nivel.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0E120D",
+  "theme_color": "#0E120D",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
