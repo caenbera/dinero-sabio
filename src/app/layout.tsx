@@ -36,9 +36,9 @@ export const metadata: Metadata = {
     siteName: "Dinero Sabio",
     images: [
       {
-        url: "/AppIcons/playstore.jpg",
-        width: 512,
-        height: 512,
+        url: "/AppIcons/playstore-banner.jpg",
+        width: 1200,
+        height: 630,
         alt: "Dinero Sabio",
       },
     ],
@@ -46,10 +46,10 @@ export const metadata: Metadata = {
     type: "website",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Dinero Sabio | Asesoría Financiera y Patrimonial Premium",
     description: "Firma privada de asesoría patrimonial de alto nivel. Estrategias sofisticadas para proteger, estructurar y hacer crecer su patrimonio con total tranquilidad y exclusividad.",
-    images: ["/AppIcons/playstore.jpg"],
+    images: ["/AppIcons/playstore-banner.jpg"],
   },
 };
 
