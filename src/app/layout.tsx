@@ -26,8 +26,8 @@ export const metadata: Metadata = {
   description: "Firma privada de asesoría patrimonial de alto nivel. Estrategias sofisticadas para proteger, estructurar y hacer crecer su patrimonio con total tranquilidad y exclusividad.",
   manifest: "/manifest.json",
   icons: {
-    icon: "/logo.png",
-    apple: "/logo.png",
+    icon: "/AppIcons/playstore.png",
+    apple: "/AppIcons/playstore.png",
   },
   openGraph: {
     title: "Dinero Sabio | Asesoría Financiera y Patrimonial Premium",
