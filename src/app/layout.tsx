@@ -17,12 +17,39 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.VERCEL_PROJECT_PRODUCTION_URL
+      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+      : "http://localhost:3000"
+  ),
   title: "Dinero Sabio | Asesoría Financiera y Patrimonial Premium",
   description: "Firma privada de asesoría patrimonial de alto nivel. Estrategias sofisticadas para proteger, estructurar y hacer crecer su patrimonio con total tranquilidad y exclusividad.",
   manifest: "/manifest.json",
   icons: {
     icon: "/logo.png",
     apple: "/logo.png",
+  },
+  openGraph: {
+    title: "Dinero Sabio | Asesoría Financiera y Patrimonial Premium",
+    description: "Firma privada de asesoría patrimonial de alto nivel. Estrategias sofisticadas para proteger, estructurar y hacer crecer su patrimonio con total tranquilidad y exclusividad.",
+    url: "/",
+    siteName: "Dinero Sabio",
+    images: [
+      {
+        url: "/logo-01.png",
+        width: 1200,
+        height: 630,
+        alt: "Dinero Sabio",
+      },
+    ],
+    locale: "es_ES",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dinero Sabio | Asesoría Financiera y Patrimonial Premium",
+    description: "Firma privada de asesoría patrimonial de alto nivel. Estrategias sofisticadas para proteger, estructurar y hacer crecer su patrimonio con total tranquilidad y exclusividad.",
+    images: ["/logo-01.png"],
   },
 };
 
